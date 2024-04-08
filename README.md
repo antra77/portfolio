@@ -9,7 +9,7 @@ Welcome to the Portfolio App README! This application is built using React.js an
 
 ## Preview
 ### Preview of the home page
-[Portfolio](/public/portfolio.png)
+![Portfolio](/public/portfolio.png)
 
 
 ## Live Demo
