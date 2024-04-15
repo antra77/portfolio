@@ -4,16 +4,16 @@ Step into a world of creativity and innovation – visit my portfolio and embark
 
 ## Introduction
 
-Welcome to the Portfolio App README! This application is built using React.js and Three.js, aiming to showcase your portfolio in an interactive and visually appealing manner. Whether you're a developer, designer, or any professional seeking to display your work, this app provides an engaging platform to do so.
+Welcome to the Portfolio App README! This application is built using React.js and Three.js, aiming to showcase my portfolio in an interactive and visually appealing manner.
 
 
 ## Preview
 ### Preview of the home page
-[![Portfolio](/public/portfolio.png)]
+![Portfolio](/public/portfolio.png)
 
 
 ## Live Demo
-Experience the magic of my portfolio app live! Visit [portfolio](https://example.com) to explore.
+Experience the magic of my portfolio app live! Visit [portfolio](https://portfolio-antra-saraf.vercel.app/) to explore.
 
 ## Features
 - **Interactive 3D Environment:** Utilizing Three.js, the app offers an immersive 3D environment for showcasing your portfolio items.
