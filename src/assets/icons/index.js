@@ -32,6 +32,7 @@ import obys from "./obys.svg";
 import pinterest from "./pinterest.svg";
 import promptverse from "./promptverse.svg";
 import wizard from "./wizard.svg";
+import native from "./native.svg";
 
 export {
   css,
@@ -67,5 +68,5 @@ export {
   obys,
   pinterest,
   promptverse,
-  wizard
+  wizard,native
 };

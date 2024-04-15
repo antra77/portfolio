@@ -7,6 +7,7 @@ import sakura from "../assets/sakura.mp3";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
 import { Bird, Island, Plane, Sky } from "../models";
+import { leftClick,arrowKeys } from "../assets/images";
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -113,6 +114,20 @@ const Home = () => {
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
           className='w-10 h-10 cursor-pointer object-contain'
         />
+      </div>
+      <div className="absolute bottom-2 right-2 glass-box p-2 opacity-40 hidden md:block">
+        <div className="flex flex-col gap-2 ">
+          <p className=" text-gray-400 text-center">Controls</p>
+          <div className="flex gap-2 justify-center items-center">
+            <img className="w-14 h-14" src={leftClick} alt="icon1" />
+            <p className="text-gray-400 text-sm tracking-tighter">Left click to grab and control</p>
+          </div>
+          <div className="flex gap-2 justify-center items-center">
+            <img className="w-14 h-14" src={arrowKeys} alt="icon2" />
+            <p className="text-gray-400 text-sm tracking-tighter">Arrow keys to control the island</p>
+          </div>
+        </div>
+        
       </div>
     </section>
   );

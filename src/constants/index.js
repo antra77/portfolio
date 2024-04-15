@@ -23,7 +23,7 @@ import {
   adobe,
   python,
   flutter,
-  notion,dashboard,auth,obys,pinterest,promptverse,wizard
+  notion,dashboard,auth,obys,pinterest,promptverse,wizard,native
 } from "../assets/icons";  
 
 export const skills = [
@@ -71,6 +71,11 @@ export const skills = [
     imageUrl: nextjs,
     name: "Next.js",
     type: "Frontend",
+  },
+  {
+    imageUrl: native,
+    name: "React Native",
+    type: "App development",
   },
   {
     imageUrl: git,
